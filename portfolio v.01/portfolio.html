@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://caiorodriguesportfolios.com.br/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+<title>Portfolio</title>
+
+
+<meta name="facebook-domain-verification" content="li47rpj6dwms7ap5rcswzqhuhgb2tm">
+	</head>
+<body style="background-color: #6d6d6d;">
+<style>
+	#menu-esquerdo{
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(200,99,99,1) 100%);
+		width: 405px;
+		height: 790px;
+		position: fixed;
+		left:0px;
+		top:0px;
+		overflow-y: scroll;
+	}  #imagem{
+		 border-radius: 50%;
+		border: 2px solid #fff;
+		
+	} div h1,h2,h3,h4,h5,h6{
+	font-family: Unispace;
+	color: white;
+	} #menu-esquerdo input{
+		font-family: Unispace;
+		font-size: 25px;
+		width: 270px;
+		color: #fff;
+		background: rgb(0,0,0);
+		background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(159,159,159,0.01) 200%);
+		border: 1px solid #000;
+	}#nina{
+	
+		padding: 5px;
+		border-radius:5px; 
+		position: fixed;
+		right: 1150px;
+	} div input{
+		/*background: rgb(0,0,0);
+		background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(249,99,99,1) 200%);*/
+		background: rgb(175,175,175);
+		background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(150,150,150,1) 100%);
+		color: #fff;
+		border: 1px solid #000;
+		border-radius: 3px; 
+	} #ds_01,#ds_02,#ds_03{
+		padding: 2px;
+	} #ds_03{
+		height: 30px;
+	}#dsw{
+		position: fixed;
+		top: 720px;
+		right: 10px;
+		background-color: yellow;
+		color: #000;
+		font-size: 15px;
+	} #dsw p{
+		font-family: arial;
+		padding: 5px;
+	}
+</style>	
+<div id="dsw">
+	<p><b>ATENÇÃO:</b>O site está em fase de desenvolvimento</p>
+</div>
+<br>
+		<div id="nina" onclick="fechar()" style="padding: 5px; position: fixed; right: 1150px;"> 
+		<input id="ds_w" style="font-size: 25px;" type="button" value="X">
+	</div>
+	<div id="menu-esquerdo" style="display: inline-block;">
+	<center>	
+		<br><br><br>
+		 <img id="imagem" src="./portfolio_files/fotoperfil.png" style="width: 250px;"> 
+		<h1>Caio Rodrigues</h1>	
+ <img id="ds_01" onclick="acoes()" src="./portfolio_files/174857.png" style="background-color: white;width: 30px;border-radius: 10%;margin-left: 10px;" align="center">
+<img id="ds_02" onclick="acoes_s()" src="./portfolio_files/instagram-logo-1155105798346ilx9kcc6.png" style="background-color: white;width: 30px;border-radius: 10%;margin-left: 10px;" align="center">
+<img id="ds_03" onclick="acoes_ss()" src="./portfolio_files/25231.png" style="background-color: white;width: 30px;border-radius: 10%;margin-left: 10px;" align="center">
+		<script>
+		acoes = () => {
+		window.open("https://www.linkedin.com/in/caio-rodrigues-04a737212/");
+	}
+	acoes_s = () => {
+		window.open("https://www.instagram.com/caioba284/");
+	}
+	acoes_ss = () => {
+		window.open("https://github.com/caioba284");
+	}
+		</script>
+ 
+	<br>
+		<hr style="margin: 10px;">
+		<!--<h3>Projetos feitos por mim</h3>-->
+		<br>
+		<a><input type="button" value="JavaScript" style=""></a>
+	<br>
+	<br>
+		<input type="button" value="Linguagem C">
+	<br><br>
+		<input type="button" value="Bootstrap">
+	<br><br>
+		<input type="button" value="MySQL e PHP">
+	<br><br>
+		<input type="button" value="HTML e CSS">
+ 	<br><br>
+		<input type="button" value="SASS">
+ 	<br><br>
+		<input type="button" value="IONIC">
+ 	<br><br>
+		<input type="button" value="Mais projetos">
+ 	<br><br>
+		<input type="button" value="Contatos">
+ 	<br><br> <br><br> 
+		 
+	</center>
+	</div>
+	<script type="text/javascript">
+		let x; 	
+		x = 0;
+	fechar = () => {
+		switch(x){
+		case 0:
+		x += 1;
+	document.getElementById("menu-esquerdo").style.display = 'none';
+	document.querySelector("#ds_w").value = '>'
+	document.querySelector("#nina").style = `
+		padding: 5px;
+		position: fixed;
+		right: 1550px;
+	`
+		break;
+		case 1:
+		x -= 1;
+document.getElementById("menu-esquerdo").style.display = 'inline-block';
+	document.querySelector("#ds_w").value = 'X'
+	document.querySelector("#nina").style = `
+		padding: 5px;
+		position: fixed;
+		right: 1150px;
+	`
+		break;
+		}
+	}
+
+	</script>
+
+</body></html>

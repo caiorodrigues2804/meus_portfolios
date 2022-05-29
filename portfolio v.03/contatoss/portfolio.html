@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<html lang="pt-br">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfólio</title>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			background: #000;
+		}h1,h2,h3,h4,h5,h6{
+			font-family: monospace;
+			color: #27FF00;
+		
+		}	h1{
+			font-size: 30px;
+		} #div_pai{
+			padding: 20px;
+			border: 1px solid #27FF00;
+			display: inline-block;
+			height: 820px;
+			width: 320px;
+		 	border-radius: 10px;
+		} #instagram_s{
+			display: inline;
+			padding: 10px;
+		} #linkedin_s{
+			display: inline;
+			padding: 10px;
+		} #githubs_s{
+			display: inline;
+			padding: 10px;
+		}  a{
+			text-decoration: none;
+		}
+	</style>
+
+ 
+ 	
+<div id="div_pai">
+	
+	<!--<img align="center" style="border:2px solid #27FF00;border-radius:100%;margin-left: 40px;" src="profile-pic-(1).png" width="250px">-->
+	<h1 align="center" style="word-spacing: 100px;font-size:40px;">Caio Rodrigues</h1>
+	<br>
+	 <hr color="#27FF00"/>
+
+	 &ensp;
+	 	<center>
+	 		<div id="instagram_s">
+	 <img src="instagram-png-instagram-icon-1600.png" width="50px">
+		    </div>
+		    <div id="linkedin_s">
+ 	 <img src="linkedin.png" width="50px">
+ 	       </div>
+			 <div id="githubs_s">
+ 	 <img src="logotipo-do-github.png" width="50px">
+ 	 		</div>
+	 	</center>
+	 	&ensp;
+	 		 <hr  color="#27FF00"/>
+	 	<br> 
+<style type="text/css">
+	#button_d{
+		border: 1px solid #27FF00;
+		border-radius: 10px;
+	}
+</style>
+<!-- DIV PAI --->
+	 	<div>
+
+	 		<!--- JavaScript ----->
+	 		 <div id="button_d"> 
+	 		 	&ensp; <br>
+	 		<img src="javascript.png" style="padding-left: 20px;" width="30px"><a href="javascript.html"><h2 style="display: inline;font-size: 40px;padding-left: 10px;">JavaScript</h2></a>
+ 		<br><br>
+ 			</div>
+			<!--- / JavaScript ----->
+
+	 		<br>
+
+	 		<!--- HTML ----->
+			 <div id="button_d">
+	 		<a href="html_e_css.html"><img src="html_s_css.png" style="padding-left: 10px;padding-top: 10px;" width="50px"><h2 style="display: inline;font-size: 40px;padding-left: 10px;">HTML & CSS3</h2></a>
+	 		&ensp; &ensp; 
+	 	     </div>
+			<!--- / HTML ----->
+
+
+
+	 		<br>
+	 		<!--- Universidade ----->
+			 <div class="academicos" id="button_d">
+			<img src="universidade.png" style="padding-left: 10px;padding-top: 10px;" width="30px">
+	 	 <h2 style="display: inline;font-size: 22px;padding-left: 10px;">Projetos acadêmicos</h2>
+			&ensp;&ensp; &ensp; &ensp; &ensp; 
+	 	     </div>
+			<!--- / Universidade ----->
+
+	 	</div>
+
+	 		<br>
+			<!--- Contato ----->
+			 <div id="button_d">
+			 	&ensp;
+			<a href="contatos.html"><img src="contatos.png" style="padding-left: 0px;padding-top: 10px;" width="40px">
+	 	 <h2 style="display: inline;font-size: 24px;padding-left: 10px;">Contatos</h2></a>
+			&ensp;
+			<div>&ensp;</div>  
+	 	     </div>
+			<!--- / Contato ----->
+
+			<br>
+	<!--- Mais ----->
+			 <div class="mais_projetos" id="button_d">
+			 	&ensp;
+			<img src="download.png" style="padding-left: 0px;padding-top: 10px;" width="40px">
+	 	 <h2 style="display: inline;font-size: 24px;padding-left: 10px;">Mais projetos</h2>
+			&ensp;
+			<div>&ensp;</div>  
+	 	     </div>
+	<!--- / Mais -->
+
+
+	 	</div>
+	</div>
+<!--- / DIV PAI ---->
+<!--- AVISO --->
+<style type="text/css">
+	#greens{
+		/*border: 2px solid #27FF00;*/
+		position:  fixed;
+		top: 20px;
+		left: 770px;
+		width: 500px;
+		color: #27FF00;
+		font-family: monospace;
+		background: #485C45;
+	}  #div_central{
+		border:  1px solid #27FF00;
+		width: 860px;
+		height: 800px;
+		display: inline-block;
+	 
+	}
+</style>
+<!--<div id="greens">
+	<h3 style="padding-left: 20px">AVISO: o site ainda está em fase de desenvolvimento (x)</h3>
+</div>-->
+<!--- / AVISO --->
+
+	<!-- DIV CENTRAL --->
+ 
+		 
+
+	<!--- / DIV CENTRAL --->
+	<script>
+		// ICONES
+		// instagram_s
+		// linkedin_s
+		// githubs_s
+		let d,d_02,d_03;
+		d = document.querySelector("#instagram_s");
+		d_02 = document.querySelector("#linkedin_s")
+		d_03=document.querySelector("#githubs_s")
+
+		d.onclick = function() {
+			window.open("https://www.instagram.com/caioba284/")
+		}
+
+		d_02.onclick = function() {
+			window.open("https://www.linkedin.com/in/caio-rodrigues-04a737212/")
+		}
+
+		d_03.onclick= function() {
+			window.open("https://github.com/caioba284")
+		}
+
+		// Retirar alerta
+		let al;
+		al = document.querySelector("#greens")
+		al.onclick = () => {
+			al.style.display = 'none'
+		}
+
+		let academicos,mais_projetos;
+		academicos = document.querySelector(".academicos")
+		mais_projetos=document.querySelector(".mais_projetos")
+		academicos.onclick = () =>{
+			alert('Será liberado em breve')
+		}
+		mais_projetos.onclick = () =>{
+				alert('Será liberado em breve')
+		}
+	</script>
+
+ </div>
+
+<p style="color: #27FF00;;font-family: arial;font-weight: bold">Versão v.02</p>
+</body>
+</html>
